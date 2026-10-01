@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    background: #f4f4f4;
+    color: #111;
+}
+
+.container {
+    width: 95%;
+    max-width: 1250px;
+    margin: 25px auto;
+    background: white;
+    padding: 20px;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.logo {
+    width: 18%;
+    text-align: center;
+}
+
+.logo-box {
+    width: 80px;
+    height: 90px;
+    border: 3px solid #26364a;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #26364a;
+}
+
+.heading {
+    width: 82%;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.heading h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.heading h2 {
+    font-size: 22px;
+    text-decoration: underline;
+    margin-bottom: 8px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    border-bottom: 2px solid #222;
+    padding-bottom: 4px;
+}
+
+
+/* TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    border: 2px solid #222;
+    text-align: center;
+    vertical-align: middle;
+    height: 65px;
+    font-size: 15px;
+}
+
+thead th {
+    height: 65px;
+    background: #eee;
+    font-weight: bold;
+}
+
+.day {
+    width: 10%;
+}
+
+tbody th {
+    background: #eee;
+    font-size: 17px;
+}
+
+td {
+    font-weight: bold;
+}
+
+td span {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+
+/* SUBJECT COLORS */
+
+.mfca {
+    background: #7893b8;
+}
+
+.se {
+    background: #5b1876;
+    color: white;
+}
+
+.lab {
+    background: #ddd;
+}
+
+.aif {
+    background: #97400a;
+    color: white;
+}
+
+.cs {
+    background: #b5b500;
+}
+
+.ar {
+    background: #769866;
+}
+
+.bridge {
+    background: #d4bd51;
+}
+
+.subject {
+    background: #ddd;
+}
+
+
+/* LUNCH */
+
+.lunch {
+    background: #f1f1f1;
+    font-size: 18px;
+    font-weight: bold;
+    height: 390px;
+}
+
+.lunch span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* BRIDGE COURSE */
+
+.bridge small {
+    font-size: 11px;
+}
+
+
+/* SUBJECT LIST */
+
+.subjects {
+    margin-top: 18px;
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+.subjects p {
+    display: flex;
+    gap: 10px;
+}
+
+.subjects p span {
+    margin-left: auto;
+    width: 50%;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 35px;
+    font-size: 14px;
+    text-align: center;
+}
+
+footer div {
+    width: 30%;
+}
+
+footer p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+    .container {
+        width: 100%;
+        padding: 10px;
+        overflow-x: auto;
+    }
+
+    .heading h1 {
+        font-size: 18px;
+    }
+
+    .heading h3 {
+        font-size: 14px;
+    }
+
+    .heading h2 {
+        font-size: 17px;
+    }
+
+    .details {
+        font-size: 11px;
+    }
+
+    table {
+        min-width: 1100px;
+    }
+
+    .subjects {
+        min-width: 900px;
+    }
+
+    footer {
+        min-width: 900px;
+    }
+}

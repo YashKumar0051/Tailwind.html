@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCA Time Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HEADER USING FLEXBOX -->
+    <header class="header">
+
+        <div class="logo">
+            <div class="logo-box">KIET</div>
+        </div>
+
+        <div class="college-info">
+            <h1>KIET DEEMED-TO-BE UNIVERSITY, DELHI-NCR, GZB</h1>
+            <h3>Department of Computer Applications (NBA Accredited)</h3>
+            <h2>Time - Table (Odd Sem, Session 2026 - 27)</h2>
+
+            <div class="details">
+                <span><b>Course:</b> MCA</span>
+                <span><b>Semester:</b> I</span>
+                <span><b>Section:</b> E</span>
+                <span><b>Room No:</b> A-203</span>
+                <span><b>w.e.f:</b> 17.08.2026</span>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- TIMETABLE USING CSS GRID -->
+    <div class="timetable">
+
+        <!-- TIME HEADER -->
+        <div class="cell header-cell">DAY /<br>TIME</div>
+        <div class="cell header-cell">09:10-10:00</div>
+        <div class="cell header-cell">10:00-10:50</div>
+        <div class="cell header-cell">10:50-11:40</div>
+        <div class="cell header-cell">11:40-12:30</div>
+        <div class="cell header-cell">12:30-01:30</div>
+        <div class="cell header-cell">01:30-02:20</div>
+        <div class="cell header-cell">02:20-03:10</div>
+        <div class="cell header-cell">03:10-04:00</div>
+        <div class="cell header-cell">04:00-04:50</div>
+
+
+        <!-- MONDAY -->
+        <div class="cell day">MON</div>
+
+        <div class="cell subject aif span-2">
+            AIF<br><small>HRI / SB-1</small>
+        </div>
+
+        <div class="cell subject mfca">
+            MFCA<br><small>DEEPG</small>
+        </div>
+
+        <div class="cell subject se">
+            SE<br><small>ABH</small>
+        </div>
+
+        <div class="cell lunch">
+            L<br>U<br>N<br>C<br>H
+        </div>
+
+        <div class="cell subject">
+            OOPCJ<br><small>SHR</small>
+        </div>
+
+        <div class="cell subject lab span-2">
+            FEWD LAB<br><small>SHA / SAK</small>
+        </div>
+
+        <div class="cell subject bridge">
+            FM<br><small>VAN</small><br>
+            <b>BRIDGE COURSE</b>
+        </div>
+
+
+        <!-- TUESDAY -->
+        <div class="cell day">TUE</div>
+
+        <div class="cell subject">
+            OS<br><small>ANN</small>
+        </div>
+
+        <div class="cell subject se">
+            FEWD<br><small>SHA</small>
+        </div>
+
+        <div class="cell subject lab span-2">
+            OOPCJ LAB<br><small>SHR / RIY</small>
+        </div>
+
+        <div class="cell lunch"></div>
+
+        <div class="cell subject aif span-2">
+            AIF<br><small>HRI / SB-1</small>
+        </div>
+
+        <div class="cell subject mfca">
+            MFCA<br><small>DEEPG</small>
+        </div>
+
+        <div class="cell subject bridge">
+            FM<br><small>VAN</small><br>
+            <b>BRIDGE COURSE</b>
+        </div>
+
+
+        <!-- WEDNESDAY -->
+        <div class="cell day">WED</div>
+
+        <div class="cell subject">
+            OOPCJ<br><small>SHR</small>
+        </div>
+
+        <div class="cell subject span-2">
+            AIF<br><small>HRI / SB-1</small>
+        </div>
+
+        <div class="cell subject se">
+            SE<br><small>ABH</small>
+        </div>
+
+        <div class="cell lunch"></div>
+
+        <div class="cell subject lab span-2">
+            OOPCJ LAB<br><small>SHR / RIY</small>
+        </div>
+
+        <div class="cell subject se">
+            FEWD<br><small>SHA</small>
+        </div>
+
+        <div class="cell subject bridge">
+            FC<br><small>ANK</small><br>
+            <b>BRIDGE COURSE</b>
+        </div>
+
+
+        <!-- THURSDAY -->
+        <div class="cell day">THU</div>
+
+        <div class="cell subject">
+            OS<br><small>ANN</small>
+        </div>
+
+        <div class="cell subject">
+            OOPCJ<br><small>SHR</small>
+        </div>
+
+        <div class="cell subject span-2">
+            AIF<br><small>HRI / SB-1</small>
+        </div>
+
+        <div class="cell lunch"></div>
+
+        <div class="cell subject lab span-2">
+            FEWD LAB<br><small>SHA / SAK</small>
+        </div>
+
+        <div class="cell subject">
+            OS<br><small>ANN</small>
+        </div>
+
+        <div class="cell subject bridge">
+            FM<br><small>VAN</small><br>
+            <b>BRIDGE COURSE</b>
+        </div>
+
+
+        <!-- FRIDAY -->
+        <div class="cell day">FRI</div>
+
+        <div class="cell subject ar span-2">
+            AR & QT<br><small>MKG</small>
+        </div>
+
+        <div class="cell subject cs span-2">
+            CS<br><small>BAB</small>
+        </div>
+
+        <div class="cell lunch"></div>
+
+        <div class="cell subject se">
+            SE<br><small>ABH</small>
+        </div>
+
+        <div class="cell subject">
+            OOPCJ<br><small>SHR</small>
+        </div>
+
+        <div class="cell subject mfca">
+            MFCA<br><small>DEEPG</small>
+        </div>
+
+        <div class="cell subject bridge">
+            FC<br><small>ANK</small><br>
+            <b>BRIDGE COURSE</b>
+        </div>
+
+
+        <!-- SATURDAY -->
+        <div class="cell day">SAT</div>
+
+        <div class="cell subject bridge">
+            FM<br><small>VAN</small><br>
+            <b>BRIDGE COURSE</b>
+        </div>
+
+        <div class="cell subject bridge">
+            FC<br><small>ANK</small><br>
+            <b>BRIDGE COURSE</b>
+        </div>
+
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell lunch"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+    </div>
+
+
+    <!-- SUBJECT INFORMATION -->
+    <section class="subjects">
+
+        <p><b>26MA202ESL</b> — MATHEMATICAL FOUND. OF COMP. APP. (MFCA)</p>
+        <p><b>26CS201PCL</b> — SOFTWARE ENGINEERING (SE)</p>
+        <p><b>26CA202PCL</b> — OBJ. ORIENTED PROG. CONC. USING JAVA (OOPCJ)</p>
+        <p><b>26CA203PCL</b> — OPERATING SYSTEM (OS)</p>
+        <p><b>26CA204PCL</b> — AI FUNDAMENTALS (AIF)</p>
+        <p><b>26AS108HSL</b> — ANALYTICAL REASONING & QUANTITATIVE TECH. (AR & QT)</p>
+        <p><b>26CA205PBC</b> — FRONTEND WEB DEVELOPMENT (FEWD)</p>
+        <p><b>26CA202PCP</b> — OBJECT ORIENTED PROGRAMMING CONCEPTS</p>
+        <p><b>26AS101HSP</b> — COMMUNICATION SKILLS</p>
+
+    </section>
+
+
+    <!-- FOOTER USING FLEXBOX -->
+    <footer class="footer">
+
+        <div>
+            <b>Ms. Shweta Singh</b>
+            <p>Time Table Coordinator</p>
+        </div>
+
+        <div>
+            <b>CLASS COORDINATOR MCA I - E</b>
+            <p>MS. SHRUTI AGGARWAL</p>
+        </div>
+
+        <div>
+            <b>Dr. Sachin Malhotra</b>
+            <p>(Dean-CA)</p>
+        </div>
+
+    </footer>
+
+</div>
+
+</body>
+</html>=

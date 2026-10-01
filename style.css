@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    background: #eeeeee;
+    color: #111;
+}
+
+.container {
+    width: 95%;
+    max-width: 1250px;
+    margin: 25px auto;
+    background: white;
+    padding: 20px;
+}
+
+
+/* =========================
+   FLEXBOX HEADER
+========================= */
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-box {
+    width: 85px;
+    height: 95px;
+
+    border: 3px solid #24384d;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: #24384d;
+}
+
+.college-info {
+    flex: 1;
+    text-align: center;
+}
+
+.college-info h1 {
+    font-size: 24px;
+}
+
+.college-info h3 {
+    margin: 5px 0 15px;
+    font-size: 18px;
+}
+
+.college-info h2 {
+    font-size: 21px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+
+/* FLEXBOX DETAILS */
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+
+/* =========================
+   CSS GRID TIMETABLE
+========================= */
+
+.timetable {
+
+    display: grid;
+
+    /* 10 columns */
+    grid-template-columns:
+        1fr 1fr 1fr 1fr 1fr
+        1fr 1fr 1fr 1fr 1fr;
+
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+
+
+/* Every cell */
+
+.cell {
+    min-height: 65px;
+
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+/* Header row */
+
+.header-cell {
+    background: #eeeeee;
+    min-height: 70px;
+}
+
+
+/* Day */
+
+.day {
+    background: #eeeeee;
+    font-size: 17px;
+}
+
+
+/* Subjects */
+
+.subject {
+    background: #dddddd;
+}
+
+.subject small {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+/* Colors */
+
+.mfca {
+    background: #718caf;
+}
+
+.se {
+    background: #5b1675;
+    color: white;
+}
+
+.aif {
+    background: #964009;
+    color: white;
+}
+
+.cs {
+    background: #b5b500;
+}
+
+.ar {
+    background: #779766;
+}
+
+.bridge {
+    background: #d4bd51;
+    font-size: 13px;
+}
+
+.bridge b {
+    font-size: 10px;
+}
+
+
+/* Lab */
+
+.lab {
+    background: #d8d8d8;
+}
+
+
+/* =========================
+   GRID SPAN
+========================= */
+
+.span-2 {
+    grid-column: span 2;
+}
+
+
+/* =========================
+   LUNCH
+========================= */
+
+.lunch {
+
+    background: #f2f2f2;
+
+    font-size: 17px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+/* =========================
+   SUBJECT LIST
+========================= */
+
+.subjects {
+
+    margin-top: 20px;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+.subjects p {
+    margin-bottom: 2px;
+}
+
+
+/* =========================
+   FLEXBOX FOOTER
+========================= */
+
+.footer {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    text-align: center;
+
+    margin-top: 35px;
+
+    font-size: 14px;
+}
+
+.footer div {
+    width: 30%;
+}
+
+.footer p {
+    margin-top: 5px;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .header {
+        min-width: 1100px;
+    }
+
+    .timetable {
+        min-width: 1100px;
+    }
+
+    .subjects {
+        min-width: 900px;
+    }
+
+    .footer {
+        min-width: 900px;
+    }
+}

@@ -1,0 +1,27 @@
+/* Flexbox */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 40px;
+    font-size: 20px;
+}
+
+
+/* Media Query */
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 80%;
+        text-align: center;
+    }
+}

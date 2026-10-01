@@ -1,0 +1,93 @@
+/* External CSS: Font Family */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+
+    /* Padding - all 4 sides */
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+
+    /* Margin - all 4 sides */
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+/* Headings and paragraphs */
+h1,
+h2,
+h3,
+p,
+li {
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    font-family: Georgia, serif;
+
+    /* Padding */
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+
+    /* Margin */
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+}
+
+/* Sections */
+section {
+    font-family: Verdana, sans-serif;
+
+    /* Padding */
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+    /* Margin */
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+/* Projects */
+.project {
+    /* Padding */
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+    /* Margin */
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+/* Footer */
+footer {
+    font-family: "Courier New", monospace;
+
+    /* Padding */
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+
+    /* Margin */
+    margin-top: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}

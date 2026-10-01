@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+li {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-family: Georgia, serif;
+}
+
+section {
+    font-family: Verdana, sans-serif;
+}
+
+footer {
+    font-family: "Courier New", monospace;
+}-
+

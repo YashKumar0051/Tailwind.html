@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Float</title>
+
+    <style>
+        .container {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .cat {
+            float: left;
+            width: 48%;
+            height: 140px;
+            background-color: #00cccc;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .dog {
+            float: right;
+            width: 48%;
+            height: 150px;
+            background-color: #ff5555;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100px;
+            height: 80px;
+            object-fit: cover;
+            float: left;
+            margin-right: 10px;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        p {
+            font-size: 13px;
+            margin-top: 5px;
+        }
+
+        .line {
+            clear: both;
+            height: 8px;
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- CAT BOX -->
+        <div class="cat">
+
+            <h3>CatCSS</h3>
+
+            <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba"
+                 alt="Cat">
+
+            <p>
+                Nap all day cat dog hate eat string bar pillow no baths.
+                Hate everything but kitty poochy. Sleep on keyboard toy
+                mouse squeak roll over. Mesmerizing birds.
+                Poop on grasses lick paws destroy couch.
+            </p>
+
+        </div>
+
+
+        <!-- DOG BOX -->
+        <div class="dog">
+
+            <h3>DogCSS</h3>
+
+            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d"
+                 alt="Dog">
+
+            <p>
+                Heckin good boys and girls how woofer big of woo very
+                biscuit long woofer heckin doggo. Nino floof long doggo
+                noodle horse very taste wow.
+            </p>
+
+        </div>
+
+
+        <!-- PURPLE LINE -->
+        <div class="line"></div>
+
+    </div>
+
+</body>
+</html>
